@@ -1,0 +1,60 @@
+body{
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  hsl(217, 19%, 24%);
+    width: 25vw;
+    margin:auto;
+    margin-top:30vh;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    padding:2%;
+    
+}
+.adviceID{
+    margin:auto;
+    color: hsl(150, 100%, 66%);
+    font-size: 0.8rem;
+    letter-spacing: .2rem;
+}
+.text{
+    color:hsl(193, 38%, 86%);
+    font-weight: 800;
+    
+}
+.line-vec{
+    width:20vw;
+    /* padding-bottom: 2vh; */
+}
+.dice{
+    display: flex;    
+    /* display: inline-block; */
+    width:15%;
+    /* height: 1%; */
+    background-color:hsl(150, 100%, 66%) ;
+    border-radius: 100%;
+    position: relative;
+    top:7vh;
+    /* left:48vw; */
+    right: 0;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dice-img{
+    margin:30% 0%;
+    padding:5%;
+    width:30%;
+}
