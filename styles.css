@@ -17,6 +17,18 @@ body{
     -ms-border-radius: 2%;
     -o-border-radius: 2%;
     padding:2%;
+    padding-bottom: 4%;
+    position: relative;
+}
+.vp{
+    height: 60vh;
+    position: relative;
+}
+.next{
+    color:white;
+    font-family: 'Manrope', sans-serif;
+    font-size: .6rem;
+    margin-top:25vh;
     
 }
 .adviceID{
@@ -41,10 +53,11 @@ body{
     /* height: 1%; */
     background-color:hsl(150, 100%, 66%) ;
     border-radius: 100%;
-    position: relative;
-    top:7vh;
+    position: absolute;
+    bottom:-19%;
+    /* top:7vh; */
     /* left:48vw; */
-    right: 0;
+    right: 42.5%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;

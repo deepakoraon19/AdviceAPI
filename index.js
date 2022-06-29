@@ -1,6 +1,13 @@
 let adviceTxt = document.querySelector(".text");
 let adviceId = document.querySelector(".adviceID");
 let advice;
+
+document.addEventListener('keypress',(e)=>{
+    if(e.code='Space'){
+        api();
+    }
+})
+
 let api = async()=>{
     await fetch("https://api.adviceslip.com/advice").then(response=>{
         if(!response.ok){
