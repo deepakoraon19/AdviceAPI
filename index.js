@@ -1,5 +1,6 @@
 let adviceTxt = document.querySelector(".text");
 let adviceId = document.querySelector(".adviceID");
+let next = document.querySelector(".next");
 let advice;
 
 document.addEventListener('keypress',(e)=>{
@@ -7,6 +8,13 @@ document.addEventListener('keypress',(e)=>{
         api();
     }
 })
+next.addEventListener('click',(e)=>{
+           api();    
+})
+
+if(screen.width<768){
+    next.innerHTML="Press here to reload"
+}
 
 let api = async()=>{
     await fetch("https://api.adviceslip.com/advice").then(response=>{
